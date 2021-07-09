@@ -1,0 +1,86 @@
+body {
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #171717;
+  font-family: "Poppins";
+}
+
+.main {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  color: #FFFFFF;
+  transform: translate(-50%, -50%);
+}
+
+b {
+  font-size: 20px;
+  color: #171717;
+}
+
+i {
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+
+
+.serverart1 {
+  width: 100px;
+  height: 100px;
+  border: 3px solid rgb(78, 91, 233);
+}
+
+
+.serverart2 {
+  width: 100px;
+  height: 100px;
+  border: 3px solid rgb(78, 91, 233);
+}
+
+
+.discordservers {
+  background-color: #5865f2;
+  border-radius: 25px;
+}
+
+.img-txt i{ 
+    font-size: 20px;
+}
+
+
+.spotify {
+  color: #171717;
+  border-radius: 25px;
+  background-image: linear-gradient(60deg, rgba(29,185,84), rgba(51,223,111));
+  top: 50%;  
+}
+.discord {
+  color: #5865f2;
+}
+
+img {
+  border-radius: 20%;
+}
+
+
+.glow {
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1db954, 0 0 40px #1db954, 0 0 50px #1db954, 0 0 60px #1db954, 0 0 70px #1db954;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #33df6f, 0 0 40px #33df6f, 0 0 50px #33df6f, 0 0 60px #33df6f, 0 0 70px #33df6f, 0 0 80px #33df6f;
+  }
+}
